@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <header>   
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="titulo">
+                <h1 >LETS PREDICT YOUR MATH RESULT</h1>        
+            </div>
+            
+            <form id="formulario">            
+                <fieldset>
+                    <legend>Select a Gender</legend>
+                    <select id="genderSelect">
+                        <option>female</option>
+                        <option>male</option> 
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Select a Parental Level of Education</legend>
+                    <select id="parentalEducationSelect">
+                        <option>some college</option>
+                        <option>associate's degree</option> 
+                        <option>some high school</option> 
+                        <option>high school</option> 
+                        <option>master's degree</option> 
+                        <option>bachelor's degree</option> 
+                        
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Select a Lunch</legend>
+                    <select id="lunchSelect">
+                        <option>standard</option>
+                        <option>free/reduced</option> 
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Select a Test Preparation Course</legend>
+                    <select id="testSelect">
+                        <option>completed</option>
+                        <option>none</option> 
+                    </select>
+                </fieldset>
+    
+         
+                <input type="submit" value="Submit" class="enviar">
+                <div id="resultado">
+                    <!-- El resultado se mostrará aquí -->
+                </div>
+            </form>               
+        </div>  
+    </main>
+    <footer>
+    </footer>
+    <script src="reglas.js"></script>
+</body>
+</html>

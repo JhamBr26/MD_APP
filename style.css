@@ -1,0 +1,61 @@
+body{
+    background: rgb(30, 29, 29);
+} 
+
+.titulo{
+    background: rgb(213, 97, 13);
+    height:  60px; 
+    padding: 25px 0 0 0 ;
+    font-family: 'Times New Roman';
+    font-size: 32px;
+    font-weight: bolder; 
+    text-align: center;    
+    font-style: italic;
+    color:white;
+}
+
+.contenedor{
+    background: rgb(246, 239, 239);
+    height: 560px;
+    width: 940px;
+    position: relative;
+    margin: 10em auto;     
+}
+
+form{ 
+    padding: 25px  150px 0px  150px;
+    font-size: 20px;    
+    font-weight: lighter; 
+}
+
+.contenedor fieldset{
+    margin: 15px auto;
+}
+
+select,input{ 
+    height: 32px;
+    width: 250px;    
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0px;
+    margin: 2px auto;
+}
+
+input{
+    background: rgb(213, 97, 13);
+    color:white;
+    height: 40px;
+    margin: 15px auto;
+}
+
+input:hover{
+    background: rgb(246, 135, 57); 
+}
+
+#resultado{ 
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 25px;
+    font-weight: bolder;      
+    font-style: italic;
+}
